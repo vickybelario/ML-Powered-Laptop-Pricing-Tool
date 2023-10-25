@@ -1,22 +1,12 @@
 # ML-Powered-Laptop-Pricing-Tool
 
 
-- Project Overview
-This project is a machine learning-based laptop price predictor designed to help users estimate the price of a laptop based on various features, such as the processor type, RAM, storage, screen size, and more. The machine learning model employed in this project has been meticulously trained on a comprehensive dataset of laptop specifications and corresponding prices, ensuring accurate and reliable price predictions.
+In this project, I engineered a Laptop Price Predictor, leveraging a comprehensive dataset of 1303 laptop entries. The project involved intricate data manipulation and feature engineering. I employed essential libraries such as Pandas, NumPy, and Scikit-Learn for data preprocessing, cleaning, and machine learning.
 
-- Key Features and Highlights
-- Exploratory Data Analysis (EDA)
-The project includes a comprehensive exploratory data analysis phase, encompassing univariate and bivariate analyses. These analyses provide insights into the relationships between different laptop features and their impact on pricing. EDA helps in understanding the dataset and identifying patterns, outliers, and trends.
+- Data visualization was a pivotal step, and I harnessed Matplotlib and Seaborn to create insightful barplots and apply data transformations like log transformations for further analysis.
 
-- Feature Engineering
-To enhance the model's predictive capabilities, we've conducted extensive feature engineering. This process involves transforming and creating new features to improve the model's performance. 
+-To encode categorical variables, I employed a combination of One-Hot Encoding and SimpleImputer, facilitated by Scikit-Learn's OneHotEncoder and SimpleImputer. Further, I utilized Scikit-Learn's ColumnTransformer to efficiently transform and preprocess the data, allowing me to convert non-numeric data into a format suitable for machine learning models.
 
-- Machine Learning Pipelines
-We've implemented machine learning pipelines to streamline the model-building process. These pipelines ensure data preprocessing, feature selection, model training, and evaluation are executed seamlessly, providing a structured and organized approach to machine learning model development.
+- For predictive modeling, I structured the process with Scikit-Learn's Pipelines, ensuring seamless and efficient data processing. I also applied Scikit-Learn's ensemble techniques, including stacking and voting classifiers, to boost prediction accuracy. What sets this project apart is the use of Pickle for model serialization, enabling the model to be saved and loaded effortlessly.
 
-- Function Transformation
-Function transformations are applied to the data to handle various aspects of feature engineering and data preprocessing. These transformations are essential for preparing the dataset for machine learning and optimizing model performance.
-
-- Sklearn Libraries
-This project leverages the power of scikit-learn (Sklearn) libraries, a versatile and widely-used machine learning library in Python. Sklearn provides a plethora of tools for data preprocessing, model selection, and evaluation, making it an ideal choice for developing a laptop price prediction model
-Skills: Machine Learning Algorithms · EDA · Python (Programming Language)
+- The final model was deployed as a user-friendly web app using Flask, enabling users to estimate laptop prices based on various specifications.ython (Programming Language)
